@@ -1,54 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Getting a Modern Logic Developer AWS Account - READ ME FIRST
-
-Each developer will be provided with an AWS account under the Modern Logic Organization for development. The account is per developer, not per project. If you have multiple Modern Logic projects you should re-use the same development account. If you've already got an account from a different project you can skip to 'Setting up...' below.
-
-If you have not worked with a Modern Logic Developer AWS account before:
-
-1. Get account credentials from your Develoment Lead
-2. Add them to ~/.aws/credentials in the following format:
-
-[ModernLogicDevelopment]
-aws_access_key_id=YOURACCESSKEYID
-aws_secret_access_key=YOURSECRETACCESSKEY
-
-3. Add the following to ~/.aws/config:
-
-[profile ModernLogicDevelopment]
-region=us-east-1
-
-4. then login to the aws console using a web browser and a link your dev lead will provide. It will ask you to change the password. Do so.
-5. Visit https://console.aws.amazon.com/iam/home?region=us-east-2#/users/YOURUSERNAME?section=security_credentials and add an MFA token. You can use a program like google authenticator on your phone or 1password for One Time Tokens.
-
-## Setting up Booked-Up with AWS Amplify - READ ME SECOND
-
-Once the above is completed you can get started with your development environment. 
-
-1. Checkout the project from github.
-2. Install the AWS Amplify CLI (`npm install -g @aws-amplify/cli`).
-3. Run `amplify env add` with the following answers:
-
-environment name: yournamedev (for example: dylandev)
-Do you want to use an AWS profile: Yes
-Choose a profile: Choose ModernLogicDevelopment
-
-This will create some resources in your AWS account.
-
-4. amplify push
-
-This will deploy the backend resources.
-
-To run the app locally:
-
-`yarn start`
-
-To deploy the website to your development account:
-
-`amplify publish`
-
-This should open it in a browser and output the url to the command line.
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -91,3 +42,27 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
