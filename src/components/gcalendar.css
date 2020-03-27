@@ -1,0 +1,22 @@
+.tui-full-calendar-weekday-grid-line.tui-full-calendar-holiday-sat.tui-full-calendar-near-month-day{
+    background-color: white !important;    
+    z-index: 100;  
+    opacity: 0.5;  
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tui-full-calendar-weekday-grid-line.tui-full-calendar-holiday-sun.tui-full-calendar-near-month-day{
+    background-color: white !important;    
+    z-index: 100; 
+    opacity: 0.5;  
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* .tui-full-calendar-weekday-schedule-title{
+    padding-left: 14% !important;  
+    padding-right: 14% !important;  
+} */
+/* 
+.tui-full-calendar-weekday-schedule-title{
+    z-index: 101;    
+} */
